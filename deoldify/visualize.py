@@ -139,6 +139,7 @@ class ModelImageVisualizer:
             )
 
             result_path = self._save_result_image(path, result, results_dir=results_dir)
+            print(f'Converted {path}')
             result.close()
 
     def _plot_comparison(
